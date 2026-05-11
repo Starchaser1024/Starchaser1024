@@ -1,6 +1,6 @@
 <div align="center">
 
-# Xin
+# Starchaser
 
 ### Software Engineer · Tool Builder · Systems Thinker
 
@@ -56,8 +56,7 @@ My work is usually about making complex systems easier to observe, control, and 
 ## Technical Stack
 
 ```txt
-Languages      TypeScript · Python · Go · C++ · JavaScript
-Frontend       Vue · React · Tailwind CSS · Vite
+Languages      Python · Go · C++ 
 Desktop        Wails · Electron · Native Tooling
 Backend        FastAPI · Node.js · REST APIs
 Systems        BLE · Embedded Tools · Linux · Serial Communication
