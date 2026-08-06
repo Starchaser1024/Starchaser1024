@@ -2,62 +2,46 @@
 
 # Starchaser
 
-### Software Engineer · Tool Builder · Systems Thinker
+### CS Master's Student · Learning to Build Agents · Hoping to Be Useful
 
-I build clean, reliable tools for real-world engineering workflows.
+  
 
-<br />
 
-[Projects](#selected-work) · [Stack](#technical-stack) · [Contact](mailto:your@email.com)
+[About](#about) · [Now Learning](#now-learning) · [Goals](#goals)
 
 </div>
 
-<br />
+  
+
 
 ## About
 
-I focus on building practical software where hardware, interfaces, and automation meet.
+I'm an ordinary person, walking an ordinary path.
 
-My work is usually about making complex systems easier to observe, control, and improve.
+I'm a master's student in Computer Science — still learning, still figuring things out. Right now there's not much I can point to, and I won't pretend that doesn't bother me. But I'm still here, still learning, still trying.
 
-<br />
+I'll be honest: I don't know the direction. The future is foggy, and some days a quiet melancholy settles in — the kind that comes from not knowing where I'm headed.
 
-## Selected Work
+  
 
-<table>
-  <tr>
-    <td width="50%">
-      <h3>Device Control Platform</h3>
-      <p>A desktop tool for device connection, command dispatch, status monitoring, and debugging workflows.</p>
-      <p><sub>Wails · Go · Vue · BLE · TypeScript</sub></p>
-    </td>
-    <td width="50%">
-      <h3>Data Visualization Toolkit</h3>
-      <p>A lightweight workflow for transforming structured data into clear interactive visual outputs.</p>
-      <p><sub>Python · JavaScript · Maps · Automation</sub></p>
-    </td>
-  </tr>
-  <tr>
-    <td width="50%">
-      <h3>Engineering Automation Scripts</h3>
-      <p>Small, focused tools that remove repetitive operational work from development and testing.</p>
-      <p><sub>Python · Shell · Git · CI</sub></p>
-    </td>
-    <td width="50%">
-      <h3>Interface Experiments</h3>
-      <p>Explorations in clean interaction design, dense dashboards, and human-friendly technical tools.</p>
-      <p><sub>React · Vue · CSS · UX</sub></p>
-    </td>
-  </tr>
-</table>
 
-<br />
+## Now Learning
 
-## Technical Stack
+I'm not shipping products yet. I'm studying — slowly, and honestly.
 
-```txt
-Languages      Python · Go · C++ 
-Desktop        Wails · Electron · Native Tooling
-Backend        FastAPI · Node.js · REST APIs
-Systems        BLE · Embedded Tools · Linux · Serial Communication
-Workflow       Git · Docker · Automation · Debugging
+- **Agents** — how to design and build systems that can think, act, and help.
+- **TypeScript** — learning by writing, one small thing at a time.
+
+This is the quiet part, before the work becomes visible.
+
+  
+
+
+## Goals
+
+- **Short term:** find an internship where I can learn to build agents alongside people who know more than I do.
+- **Long term:** step into AI, and contribute what I can toward AGI. Not because AGI is the endpoint — it isn't. What matters is what we build with it, and whether it helps real human lives.
+
+If you're building something that helps people, I'd love to learn from you.
+
+  
