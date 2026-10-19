@@ -2,46 +2,33 @@
 
 # Starchaser
 
-### CS Master's Student · Learning to Build Agents · Hoping to Be Useful
+### ECG Signals × LLMs · Learning to Build Agents
 
-  
-
-
-[About](#about) · [Now Learning](#now-learning) · [Goals](#goals)
+[About](#about) · [Open Source](#open-source) · [Now](#now) · [Contact](#contact)
 
 </div>
 
-  
-
-
 ## About
 
-I'm an ordinary person, walking an ordinary path.
+I'm a master's student in Computer Science at Beijing University of Technology.
 
-I'm a master's student in Computer Science — still learning, still figuring things out. Right now there's not much I can point to, and I won't pretend that doesn't bother me. But I'm still here, still learning, still trying.
+My work lives on the seam between two disciplines. On one side is signal processing — the older, quieter craft, where a heartbeat is a waveform with a frequency, a rhythm, a story. On the other is the age of large models, where language becomes a way of reasoning about that waveform. I am learning to hold both.
 
-I'll be honest: I don't know the direction. The future is foggy, and some days a quiet melancholy settles in — the kind that comes from not knowing where I'm headed.
+I came from the time domain and I'm moving toward the frequency domain: from hand-built features toward models that learn their own. I don't think the old craft becomes obsolete. I think it becomes the vocabulary.
 
-  
+## Open Source
 
+- **[langroid/langroid#1124](https://github.com/langroid/langroid/pull/1124)** — fixed shared mutable default TaskConfig (merged)
+- **[wechat-antirevoke-linux](https://github.com/Starchaser1024/wechat-antirevoke-linux)** — a small ELF binary patch for WeChat on Linux, with backup, verification and rollback.
 
-## Now Learning
+One pull request so far. The next ones are being written.
 
-I'm not shipping products yet. I'm studying — slowly, and honestly.
+## Now
 
-- **Agents** — how to design and build systems that can think, act, and help.
-- **TypeScript** — learning by writing, one small thing at a time.
+- **Agents** — how to design systems that reason, act, and stay accountable to the people who use them.
+- **TypeScript** — learning by building, one small thing at a time.
+- **Multimodal ECG** — bringing time-domain signals and frequency-domain representations into the same model.
 
-This is the quiet part, before the work becomes visible.
+## Contact
 
-  
-
-
-## Goals
-
-- **Short term:** find an internship where I can learn to build agents alongside people who know more than I do.
-- **Long term:** step into AI, and contribute what I can toward AGI. Not because AGI is the endpoint — it isn't. What matters is what we build with it, and whether it helps real human lives.
-
-If you're building something that helps people, I'd love to learn from you.
-
-  
+If you're building something that helps people — or something that listens to the heart — I'd like to hear from you. Open an issue on any public repository; I read everything.
