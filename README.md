@@ -1,5 +1,9 @@
 <p align="center">
-  <img src="assets/ecg-dark.gif" alt="A live ECG strip scrolling left to right." width="100%">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="assets/type-dark.png">
+    <source media="(prefers-color-scheme: light)" srcset="assets/type-light.png">
+    <img src="assets/type-light.png" alt="Starchaser — ECG signals and large models, set above a thin ECG trace." width="100%">
+  </picture>
 </p>
 
 I'm a master's student in Computer Science at Beijing University of Technology. My work
