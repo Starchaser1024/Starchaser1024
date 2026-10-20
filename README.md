@@ -1,39 +1,47 @@
-<div align="center">
+<p align="center">
+  <img src="assets/ecg-dark.gif" alt="A live ECG strip scrolling left to right." width="100%">
+</p>
 
-# Starchaser
+I'm a master's student in Computer Science at Beijing University of Technology. My work
+lives on the seam between signal processing and large models — a heartbeat is a waveform
+with a frequency, a rhythm, a story, and I want a model that can hold all three at once.
 
-### ECG Signals × LLMs · Learning to Build Agents
+I came from the time domain and I'm moving toward the frequency domain: from hand-built
+features toward models that learn their own. I don't think the old craft becomes obsolete.
+I think it becomes the vocabulary.
 
-[About](#about) · [Open Source](#open-source) · [Now](#now)
+## Open source
 
-</div>
+Four upstream pull requests. Each is one bug fixed at its source, pinned down by a test.
 
-## About
+<table>
+  <tr>
+    <td><sub><b>MERGED</b></sub></td>
+    <td><a href="https://github.com/langroid/langroid/pull/1124"><b>langroid#1124</b></a></td>
+    <td><code>TaskConfig</code> was a mutable default shared by every <code>Task</code>; each task now gets its own.</td>
+  </tr>
+  <tr>
+    <td><sub><b>MERGED</b></sub></td>
+    <td><a href="https://github.com/bytedance/deer-flow/pull/7140"><b>deer-flow#7140</b></a></td>
+    <td>An unusable credential source ended the whole lookup instead of falling through.</td>
+  </tr>
+  <tr>
+    <td><sub><b>OPEN</b></sub></td>
+    <td><a href="https://github.com/agentscope-ai/agentscope/pull/3382"><b>agentscope#3382</b></a></td>
+    <td><code>RedisStorage.upsert_channel</code> let a second channel take over an existing platform bot id.</td>
+  </tr>
+  <tr>
+    <td><sub><b>OPEN</b></sub></td>
+    <td><a href="https://github.com/NousResearch/hermes-agent/pull/141881"><b>hermes-agent#141881</b></a></td>
+    <td>File version was built from content, so a Windows overwrite could look stale. Now it is built from the path.</td>
+  </tr>
+</table>
 
-I'm a master's student in Computer Science at Beijing University of Technology.
-
-My work lives on the seam between two disciplines. On one side is signal processing — the older, quieter craft, where a heartbeat is a waveform with a frequency, a rhythm, a story. On the other is the age of large models, where language becomes a way of reasoning about that waveform. I am learning to hold both.
-
-I came from the time domain and I'm moving toward the frequency domain: from hand-built features toward models that learn their own. I don't think the old craft becomes obsolete. I think it becomes the vocabulary.
-
-## Open Source
-
-Two merged, two open — all of them small, focused bug fixes with regression tests.
-
-| Pull request | What it fixes |
-| --- | --- |
-| **[langroid#1124](https://github.com/langroid/langroid/pull/1124)** · merged | `TaskConfig` was a mutable default shared by every `Task` instance; now each task gets its own. |
-| **[deer-flow#7140](https://github.com/bytedance/deer-flow/pull/7140)** · merged | An unusable credential source ended the whole lookup instead of falling through to the next one. |
-| **[agentscope#3382](https://github.com/agentscope-ai/agentscope/pull/3382)** · open | `RedisStorage.upsert_channel` let a second channel take over an existing platform bot id. |
-| **[hermes-agent#141881](https://github.com/NousResearch/hermes-agent/pull/141881)** · open | File version was built from content, so a Windows overwrite could look stale; now it's built from the path. |
-
-Each one follows the same shape: find the bug, isolate it in a test, change as little as possible.
-
-Elsewhere: **[wechat-antirevoke-linux](https://github.com/Starchaser1024/wechat-antirevoke-linux)** — an ELF binary patch for WeChat on Linux, with backup, verification and rollback.
+Also [wechat-antirevoke-linux](https://github.com/Starchaser1024/wechat-antirevoke-linux) — an
+ELF binary patch for WeChat on Linux, with backup, verification and rollback.
 
 ## Now
 
-- **Agents** — how to design systems that reason, act, and stay accountable to the people who use them.
-- **ECG** — bringing time-domain signals and frequency-domain representations into the same model.
-- **Review tooling** — making AI-generated changes something you can actually accept or reject.
-
+- **Agents** — systems that reason, act, and stay accountable to the people who use them.
+- **ECG** — time-domain signals and frequency-domain representations in one model.
+- **Review tooling** — making AI-generated changes something you can accept or reject.
