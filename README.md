@@ -91,5 +91,5 @@ ELF binary patch for WeChat on Linux, with backup, verification and rollback.
 - **Review tooling** — making AI-generated changes something you can accept or reject.
 
 <p align="center">
-  <img src="https://komarev.com/ghpvc/?username=Starchaser1024&label=Profile%20views&color=0969DA&style=flat-square" alt="Profile views">
+  <img src="https://hits.sh/github.com/Starchaser1024.svg?label=Profile%20views&color=0969DA" alt="Profile views">
 </p>
