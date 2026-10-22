@@ -17,8 +17,8 @@
     </td>
     <td width="42%" align="center">
       <picture>
-        <source media="(prefers-color-scheme: dark)" srcset="assets/top-langs-dark.svg?v=1">
-        <img width="100%" src="assets/top-langs-light.svg?v=1" alt="Most used languages">
+        <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Starchaser1024/Starchaser1024/main/assets/top-langs-dark.svg?v=1">
+        <img width="100%" src="https://raw.githubusercontent.com/Starchaser1024/Starchaser1024/main/assets/top-langs-light.svg?v=1" alt="Most used languages">
       </picture>
     </td>
   </tr>
