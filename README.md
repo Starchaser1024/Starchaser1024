@@ -19,8 +19,8 @@ I think it becomes the vocabulary.
   <tr>
     <td width="54%" align="center">
       <picture>
-        <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api?username=Starchaser1024&show_icons=true&hide=stars&theme=github_dark&hide_border=true&include_all_commits=true&card_width=380">
-        <img width="100%" src="https://github-readme-stats.vercel.app/api?username=Starchaser1024&show_icons=true&hide=stars&theme=default&hide_border=true&include_all_commits=true&card_width=380" alt="GitHub stats">
+        <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api?username=Starchaser1024&show_icons=true&hide=stars&theme=github_dark&hide_border=true&include_all_commits=true">
+        <img width="100%" src="https://github-readme-stats.vercel.app/api?username=Starchaser1024&show_icons=true&hide=stars&theme=default&hide_border=true&include_all_commits=true" alt="GitHub stats">
       </picture>
     </td>
     <td width="42%" align="center">
