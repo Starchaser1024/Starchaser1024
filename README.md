@@ -7,14 +7,6 @@
 
 <p align="center"><sub>MSc CS @ BJUT · ECG signals × LLMs × agents</sub></p>
 
-I'm a master's student in Computer Science at Beijing University of Technology. My work
-lives on the seam between signal processing and large models — a heartbeat is a waveform
-with a frequency, a rhythm, a story, and I want a model that can hold all three at once.
-
-I came from the time domain and I'm moving toward the frequency domain: from hand-built
-features toward models that learn their own. I don't think the old craft becomes obsolete.
-I think it becomes the vocabulary.
-
 <table>
   <tr>
     <td width="54%" align="center">
