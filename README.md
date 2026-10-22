@@ -17,8 +17,8 @@
     </td>
     <td width="42%" align="center">
       <picture>
-        <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api/top-langs/?username=Starchaser1024&layout=compact&theme=github_dark&hide_border=true&langs_count=6">
-        <img width="100%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Starchaser1024&layout=compact&theme=default&hide_border=true&langs_count=6" alt="Most used languages">
+        <source media="(prefers-color-scheme: dark)" srcset="assets/top-langs-dark.svg?v=1">
+        <img width="100%" src="assets/top-langs-light.svg?v=1" alt="Most used languages">
       </picture>
     </td>
   </tr>
