@@ -1,10 +1,11 @@
 <p align="center">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="assets/type-dark.png">
-    <source media="(prefers-color-scheme: light)" srcset="assets/type-light.png">
-    <img src="assets/type-light.png" alt="Starchaser — ECG signals and large models, set above a thin ECG trace." width="100%">
+    <source media="(prefers-color-scheme: dark)" srcset="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=30&pause=1200&color=58A6FF&center=true&vCenter=true&width=420&lines=starchaser">
+    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=30&pause=1200&color=0969DA&center=true&vCenter=true&width=420&lines=starchaser" alt="starchaser">
   </picture>
 </p>
+
+<p align="center"><sub>MSc CS @ BJUT · ECG signals × LLMs × agents</sub></p>
 
 I'm a master's student in Computer Science at Beijing University of Technology. My work
 lives on the seam between signal processing and large models — a heartbeat is a waveform
@@ -13,6 +14,24 @@ with a frequency, a rhythm, a story, and I want a model that can hold all three 
 I came from the time domain and I'm moving toward the frequency domain: from hand-built
 features toward models that learn their own. I don't think the old craft becomes obsolete.
 I think it becomes the vocabulary.
+
+<p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api?username=Starchaser1024&show_icons=true&hide=stars&theme=github_dark&hide_border=true&include_all_commits=true">
+    <img width="47%" src="https://github-readme-stats.vercel.app/api?username=Starchaser1024&show_icons=true&hide=stars&theme=default&hide_border=true&include_all_commits=true" alt="GitHub stats">
+  </picture>
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api/top-langs/?username=Starchaser1024&layout=compact&theme=github_dark&hide_border=true&langs_count=6">
+    <img width="38%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Starchaser1024&layout=compact&theme=default&hide_border=true&langs_count=6" alt="Most used languages">
+  </picture>
+</p>
+
+<p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://github-act-graph.rodriaum.com/graph?username=Starchaser1024&theme=github-dark&hide_border=true&area=true">
+    <img width="100%" src="https://github-act-graph.rodriaum.com/graph?username=Starchaser1024&theme=github-compact&hide_border=true&area=true" alt="Contribution activity over the last 31 days">
+  </picture>
+</p>
 
 ## Open source
 
@@ -70,3 +89,7 @@ ELF binary patch for WeChat on Linux, with backup, verification and rollback.
 - **Agents** — systems that reason, act, and stay accountable to the people who use them.
 - **ECG** — time-domain signals and frequency-domain representations in one model.
 - **Review tooling** — making AI-generated changes something you can accept or reject.
+
+<p align="center">
+  <img src="https://komarev.com/ghpvc/?username=Starchaser1024&label=Profile%20views&color=0969DA&style=flat-square" alt="Profile views">
+</p>
