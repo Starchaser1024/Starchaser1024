@@ -17,8 +17,8 @@
     </td>
     <td width="42%" align="center">
       <picture>
-        <source media="(prefers-color-scheme: dark)" srcset="https://cdn.jsdelivr.net/gh/Starchaser1024/Starchaser1024@main/assets/top-langs-dark.svg?v=2">
-        <img width="100%" src="https://cdn.jsdelivr.net/gh/Starchaser1024/Starchaser1024@main/assets/top-langs-light.svg?v=2" alt="Most used languages">
+        <source media="(prefers-color-scheme: dark)" srcset="https://cdn.jsdelivr.net/gh/Starchaser1024/Starchaser1024@86feebd49742821daee6f53378cb59e049cc8dd8/assets/top-langs-dark.svg">
+        <img width="100%" src="https://cdn.jsdelivr.net/gh/Starchaser1024/Starchaser1024@86feebd49742821daee6f53378cb59e049cc8dd8/assets/top-langs-light.svg" alt="Most used languages">
       </picture>
     </td>
   </tr>
