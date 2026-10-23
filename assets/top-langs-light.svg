@@ -2,22 +2,22 @@
 <style>text{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif}.t{font-size:14px;font-weight:600}.n{font-size:12px}</style>
 <rect x="0.5" y="0.5" width="339" height="197" rx="4.5" fill="#ffffff" stroke="#d0d7de"/>
 <text x="25" y="27" class="t" fill="#24292f">Most Used Languages</text>
-<rect x="25" y="29" width="10" height="10" rx="2" fill="#3572A5"/>
-<text x="43" y="38" class="n" fill="#24292f">Python</text>
-<text x="315" y="38" class="n" fill="#57606a" text-anchor="end">38.0%</text>
-<rect x="25" y="54" width="10" height="10" rx="2" fill="#3178c6"/>
-<text x="43" y="63" class="n" fill="#24292f">TypeScript</text>
-<text x="315" y="63" class="n" fill="#57606a" text-anchor="end">34.3%</text>
-<rect x="25" y="79" width="10" height="10" rx="2" fill="#00ADD8"/>
-<text x="43" y="88" class="n" fill="#24292f">Go</text>
-<text x="315" y="88" class="n" fill="#57606a" text-anchor="end">22.2%</text>
-<rect x="25" y="104" width="10" height="10" rx="2" fill="#563d7c"/>
-<text x="43" y="113" class="n" fill="#24292f">CSS</text>
-<text x="315" y="113" class="n" fill="#57606a" text-anchor="end">4.4%</text>
-<rect x="25" y="129" width="10" height="10" rx="2" fill="#f1e05a"/>
-<text x="43" y="138" class="n" fill="#24292f">JavaScript</text>
-<text x="315" y="138" class="n" fill="#57606a" text-anchor="end">0.8%</text>
-<rect x="25" y="154" width="10" height="10" rx="2" fill="#e34c26"/>
-<text x="43" y="163" class="n" fill="#24292f">HTML</text>
-<text x="315" y="163" class="n" fill="#57606a" text-anchor="end">0.4%</text>
+<rect x="25" y="39" width="10" height="10" rx="2" fill="#3572A5"/>
+<text x="43" y="48" class="n" fill="#24292f">Python</text>
+<text x="315" y="48" class="n" fill="#57606a" text-anchor="end">38.0%</text>
+<rect x="25" y="65" width="10" height="10" rx="2" fill="#3178c6"/>
+<text x="43" y="74" class="n" fill="#24292f">TypeScript</text>
+<text x="315" y="74" class="n" fill="#57606a" text-anchor="end">34.3%</text>
+<rect x="25" y="91" width="10" height="10" rx="2" fill="#00ADD8"/>
+<text x="43" y="100" class="n" fill="#24292f">Go</text>
+<text x="315" y="100" class="n" fill="#57606a" text-anchor="end">22.2%</text>
+<rect x="25" y="117" width="10" height="10" rx="2" fill="#563d7c"/>
+<text x="43" y="126" class="n" fill="#24292f">CSS</text>
+<text x="315" y="126" class="n" fill="#57606a" text-anchor="end">4.4%</text>
+<rect x="25" y="143" width="10" height="10" rx="2" fill="#f1e05a"/>
+<text x="43" y="152" class="n" fill="#24292f">JavaScript</text>
+<text x="315" y="152" class="n" fill="#57606a" text-anchor="end">0.8%</text>
+<rect x="25" y="169" width="10" height="10" rx="2" fill="#e34c26"/>
+<text x="43" y="178" class="n" fill="#24292f">HTML</text>
+<text x="315" y="178" class="n" fill="#57606a" text-anchor="end">0.4%</text>
 </svg>
