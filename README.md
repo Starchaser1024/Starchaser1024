@@ -33,10 +33,20 @@
 
 ## Open source
 
-Eight upstream pull requests, four merged and four open. Each one is a single defect traced
+Ten upstream pull requests, six merged and four open. Each one is a single defect traced
 back to its source and pinned down by a test.
 
 <table>
+  <tr>
+    <td><sub><b>MERGED</b></sub></td>
+    <td><a href="https://github.com/bytedance/deer-flow/pull/7462"><b>deer-flow#7462</b></a></td>
+    <td><code>LocalSandbox.write_file</code> translated container paths inside every stored file, so a dictated <code>README.md</code> held a host path while <code>read_file</code> masked the rewrite. Translation now applies only to executable content.</td>
+  </tr>
+  <tr>
+    <td><sub><b>MERGED</b></sub></td>
+    <td><a href="https://github.com/deepset-ai/haystack/pull/13381"><b>haystack#13381</b></a></td>
+    <td>Five components called <code>&lt;method&gt;_async</code> unconditionally, so a document store that implements only the synchronous protocol raised <code>AttributeError</code> from <code>run_async</code>. They now fall back to a worker thread.</td>
+  </tr>
   <tr>
     <td><sub><b>MERGED</b></sub></td>
     <td><a href="https://github.com/agentscope-ai/agentscope/pull/3401"><b>agentscope#3401</b></a></td>
@@ -59,23 +69,23 @@ back to its source and pinned down by a test.
   </tr>
   <tr>
     <td><sub><b>OPEN</b></sub></td>
+    <td><a href="https://github.com/agentscope-ai/agentscope/pull/3441"><b>agentscope#3441</b></a></td>
+    <td>Tool-result truncation sized the retained prefix from the block's average token density, so a mixed-script prefix could exceed <code>tool_result_limit</code>. The prefix is now recounted and binary-searched with the same counter.</td>
+  </tr>
+  <tr>
+    <td><sub><b>OPEN</b></sub></td>
     <td><a href="https://github.com/NousResearch/hermes-agent/pull/142868"><b>hermes-agent#142868</b></a></td>
     <td>A Microsoft Store / MSIX app registers no uninstall entry and its files sit behind an unlistable <code>WindowsApps</code>, so an installed app read as missing. A new <code>msix_package</code> location kind resolves it through the AppModel repository.</td>
   </tr>
   <tr>
     <td><sub><b>OPEN</b></sub></td>
-    <td><a href="https://github.com/deepset-ai/haystack/pull/13381"><b>haystack#13381</b></a></td>
-    <td>Five components called <code>&lt;method&gt;_async</code> unconditionally, so a document store that implements only the synchronous protocol raised <code>AttributeError</code> from <code>run_async</code>. They now fall back to a worker thread.</td>
+    <td><a href="https://github.com/agentscope-ai/agentscope/pull/3382"><b>agentscope#3382</b></a></td>
+    <td><code>RedisStorage.upsert_channel</code> let a second channel take over a platform bot id a live record already drove. The check now happens inside the write.</td>
   </tr>
   <tr>
     <td><sub><b>OPEN</b></sub></td>
     <td><a href="https://github.com/NousResearch/hermes-agent/pull/141881"><b>hermes-agent#141881</b></a></td>
     <td>File version was built from content, so a Windows overwrite could look stale. Now it is built from the path.</td>
-  </tr>
-  <tr>
-    <td><sub><b>OPEN</b></sub></td>
-    <td><a href="https://github.com/agentscope-ai/agentscope/pull/3382"><b>agentscope#3382</b></a></td>
-    <td><code>RedisStorage.upsert_channel</code> let a second channel take over a platform bot id a live record already drove. The check now happens inside the write.</td>
   </tr>
 </table>
 
