@@ -44,6 +44,11 @@ back to its source and pinned down by a test.
   </tr>
   <tr>
     <td><sub><b>MERGED</b></sub></td>
+    <td><a href="https://github.com/bytedance/deer-flow/pull/7140"><b>deer-flow#7140</b></a></td>
+    <td>An unusable credential source ended the whole lookup instead of falling through.</td>
+  </tr>
+  <tr>
+    <td><sub><b>MERGED</b></sub></td>
     <td><a href="https://github.com/deepset-ai/haystack/pull/13381"><b>haystack#13381</b></a></td>
     <td>Five components called <code>&lt;method&gt;_async</code> unconditionally, so a document store that implements only the synchronous protocol raised <code>AttributeError</code> from <code>run_async</code>. They now fall back to a worker thread.</td>
   </tr>
@@ -59,11 +64,6 @@ back to its source and pinned down by a test.
   </tr>
   <tr>
     <td><sub><b>MERGED</b></sub></td>
-    <td><a href="https://github.com/bytedance/deer-flow/pull/7140"><b>deer-flow#7140</b></a></td>
-    <td>An unusable credential source ended the whole lookup instead of falling through.</td>
-  </tr>
-  <tr>
-    <td><sub><b>MERGED</b></sub></td>
     <td><a href="https://github.com/langroid/langroid/pull/1124"><b>langroid#1124</b></a></td>
     <td><code>TaskConfig</code> was a mutable default shared by every <code>Task</code>; each task now gets its own.</td>
   </tr>
@@ -74,13 +74,13 @@ back to its source and pinned down by a test.
   </tr>
   <tr>
     <td><sub><b>OPEN</b></sub></td>
-    <td><a href="https://github.com/NousResearch/hermes-agent/pull/142868"><b>hermes-agent#142868</b></a></td>
-    <td>A Microsoft Store / MSIX app registers no uninstall entry and its files sit behind an unlistable <code>WindowsApps</code>, so an installed app read as missing. A new <code>msix_package</code> location kind resolves it through the AppModel repository.</td>
+    <td><a href="https://github.com/agentscope-ai/agentscope/pull/3382"><b>agentscope#3382</b></a></td>
+    <td><code>RedisStorage.upsert_channel</code> let a second channel take over a platform bot id a live record already drove. The check now happens inside the write.</td>
   </tr>
   <tr>
     <td><sub><b>OPEN</b></sub></td>
-    <td><a href="https://github.com/agentscope-ai/agentscope/pull/3382"><b>agentscope#3382</b></a></td>
-    <td><code>RedisStorage.upsert_channel</code> let a second channel take over a platform bot id a live record already drove. The check now happens inside the write.</td>
+    <td><a href="https://github.com/NousResearch/hermes-agent/pull/142868"><b>hermes-agent#142868</b></a></td>
+    <td>A Microsoft Store / MSIX app registers no uninstall entry and its files sit behind an unlistable <code>WindowsApps</code>, so an installed app read as missing. A new <code>msix_package</code> location kind resolves it through the AppModel repository.</td>
   </tr>
   <tr>
     <td><sub><b>OPEN</b></sub></td>
