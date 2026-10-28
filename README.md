@@ -33,10 +33,15 @@
 
 ## Open source
 
-Ten upstream pull requests, six merged and four open. Each one is a single defect traced
-back to its source and pinned down by a test.
+Fourteen upstream pull requests, seven merged and seven open. Each one starts from the line
+that misbehaves and ends in a test that fails without the change.
 
 <table>
+  <tr>
+    <td><sub><b>MERGED</b></sub></td>
+    <td><a href="https://github.com/bytedance/deer-flow/pull/7569"><b>deer-flow#7569</b></a></td>
+    <td><code>parse_required_secrets</code> collapsed duplicate <code>required-secrets</code> declarations by name but kept whichever came first, so an <code>optional: true</code> line ahead of a bare one made the secret optional and the skill activated without it. Required now wins regardless of order, and the export manifest reports the same thing the parser does.</td>
+  </tr>
   <tr>
     <td><sub><b>MERGED</b></sub></td>
     <td><a href="https://github.com/bytedance/deer-flow/pull/7462"><b>deer-flow#7462</b></a></td>
@@ -66,6 +71,21 @@ back to its source and pinned down by a test.
     <td><sub><b>MERGED</b></sub></td>
     <td><a href="https://github.com/langroid/langroid/pull/1124"><b>langroid#1124</b></a></td>
     <td><code>TaskConfig</code> was a mutable default shared by every <code>Task</code>; each task now gets its own.</td>
+  </tr>
+  <tr>
+    <td><sub><b>OPEN</b></sub></td>
+    <td><a href="https://github.com/stanfordnlp/dspy/pull/10733"><b>dspy#10733</b></a></td>
+    <td><code>ToolCalls.serialize_model</code> dumped each tool result with <code>TypeAdapter.dump_python(mode="json")</code> and no fallback, so one value pydantic cannot encode — a numpy scalar, a dataclass — took the whole stored trace with it, name and arguments included, while the same value already reached the model as its string form.</td>
+  </tr>
+  <tr>
+    <td><sub><b>OPEN</b></sub></td>
+    <td><a href="https://github.com/bytedance/deer-flow/pull/7600"><b>deer-flow#7600</b></a></td>
+    <td>The broad <code>use … to …</code> pattern read any phrase containing “model” as a model name, so “Use a regression model to analyze these sales figures” entered model selection and came back with the analysis method stripped from the task. A broad-form name now has to be spelled out in the visible catalog; unmatched text stays task text.</td>
+  </tr>
+  <tr>
+    <td><sub><b>OPEN</b></sub></td>
+    <td><a href="https://github.com/agentscope-ai/agentscope/pull/3493"><b>agentscope#3493</b></a></td>
+    <td><code>Msg.get_text_content()</code> returns <code>None</code> for a <code>SystemMsg</code> with no <code>TextBlock</code>, and six OpenAI-compatible multi-agent formatters passed that value into the system turn, so the first request of a conversation carried <code>{"role": "system", "content": null}</code> and the endpoint answered 400.</td>
   </tr>
   <tr>
     <td><sub><b>OPEN</b></sub></td>
