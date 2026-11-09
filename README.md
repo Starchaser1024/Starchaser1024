@@ -33,7 +33,7 @@
 
 ## Open source
 
-Fourteen upstream pull requests, seven merged and seven open. Each one starts from the line
+Sixteen upstream pull requests, eight merged and eight open. Each one starts from the line
 that misbehaves and ends in a test that fails without the change.
 
 <table>
@@ -59,6 +59,11 @@ that misbehaves and ends in a test that fails without the change.
   </tr>
   <tr>
     <td><sub><b>MERGED</b></sub></td>
+    <td><a href="https://github.com/agentscope-ai/agentscope/pull/3441"><b>agentscope#3441</b></a></td>
+    <td>Tool-result truncation sized the retained prefix from the block's average token density, so a mixed-script prefix could exceed <code>tool_result_limit</code>. The prefix is now recounted and binary-searched with the same counter.</td>
+  </tr>
+  <tr>
+    <td><sub><b>MERGED</b></sub></td>
     <td><a href="https://github.com/agentscope-ai/agentscope/pull/3401"><b>agentscope#3401</b></a></td>
     <td><code>WordParser</code> kept blank paragraphs that carry no run but dropped the ones that still carry one — a space-only line, a <code>Shift+Enter</code> break — so the empty lines Word renders disappeared from the extracted text.</td>
   </tr>
@@ -79,18 +84,23 @@ that misbehaves and ends in a test that fails without the change.
   </tr>
   <tr>
     <td><sub><b>OPEN</b></sub></td>
+    <td><a href="https://github.com/bytedance/deer-flow/pull/7740"><b>deer-flow#7740</b></a></td>
+    <td><code>SqlAgentStore.list</code> and <code>SqlManagedSubagentStore.list</code> validated every stored row in one comprehension, so a single unreadable row hid the entire catalog instead of matching the file stores. Unreadable rows are now skipped on list while <code>get</code> stays strict.</td>
+  </tr>
+  <tr>
+    <td><sub><b>OPEN</b></sub></td>
     <td><a href="https://github.com/bytedance/deer-flow/pull/7600"><b>deer-flow#7600</b></a></td>
     <td>The broad <code>use … to …</code> pattern read any phrase containing “model” as a model name, so “Use a regression model to analyze these sales figures” entered model selection and came back with the analysis method stripped from the task. A broad-form name now has to be spelled out in the visible catalog; unmatched text stays task text.</td>
   </tr>
   <tr>
     <td><sub><b>OPEN</b></sub></td>
-    <td><a href="https://github.com/agentscope-ai/agentscope/pull/3493"><b>agentscope#3493</b></a></td>
-    <td><code>Msg.get_text_content()</code> returns <code>None</code> for a <code>SystemMsg</code> with no <code>TextBlock</code>, and six OpenAI-compatible multi-agent formatters passed that value into the system turn, so the first request of a conversation carried <code>{"role": "system", "content": null}</code> and the endpoint answered 400.</td>
+    <td><a href="https://github.com/agentscope-ai/agentscope/pull/3817"><b>agentscope#3817</b></a></td>
+    <td><code>WordParser</code> collected <code>w:t</code> runs and line breaks in paragraphs and table cells but skipped <code>w:noBreakHyphen</code>, turning text like <code>ISBN-978</code> into <code>ISBN978</code>. Both extraction paths now emit <code>-</code> for non-breaking hyphens.</td>
   </tr>
   <tr>
     <td><sub><b>OPEN</b></sub></td>
-    <td><a href="https://github.com/agentscope-ai/agentscope/pull/3441"><b>agentscope#3441</b></a></td>
-    <td>Tool-result truncation sized the retained prefix from the block's average token density, so a mixed-script prefix could exceed <code>tool_result_limit</code>. The prefix is now recounted and binary-searched with the same counter.</td>
+    <td><a href="https://github.com/agentscope-ai/agentscope/pull/3816"><b>agentscope#3816</b></a></td>
+    <td><code>RedisStorage.upsert_knowledge_document</code> wrote the document record and its two index sets in separate commands, so an interrupted upload could leave a persisted <code>pending</code> document invisible to both listing and recovery scans. All four writes now commit in one <code>MULTI</code>/<code>EXEC</code> pipeline.</td>
   </tr>
   <tr>
     <td><sub><b>OPEN</b></sub></td>
@@ -115,8 +125,8 @@ ELF binary patch for WeChat on Linux, with backup, verification and rollback.
 ## Now
 
 - **Agents** — systems that reason, act, and stay accountable to the people who use them.
-- **ECG** — time-domain signals and frequency-domain representations in one model.
-- **Review tooling** — making AI-generated changes something you can accept or reject.
+- **ECG** — time-domain signals, frequency-domain representations, and morphology-preserving denoising.
+- **Review tooling** — making AI-generated changes something you can verify, accept, or reject.
 
 <p align="center">
   <img src="https://hits.sh/github.com/Starchaser1024.svg?label=Profile%20views&color=0969DA" alt="Profile views">
