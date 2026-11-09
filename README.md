@@ -11,14 +11,14 @@
   <tr>
     <td width="54%" align="center">
       <picture>
-        <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api?username=Starchaser1024&show_icons=true&hide=stars&theme=github_dark&hide_border=true&cache_seconds=1800">
-        <img width="100%" src="https://github-readme-stats.vercel.app/api?username=Starchaser1024&show_icons=true&hide=stars&theme=default&hide_border=true&cache_seconds=1800" alt="GitHub stats">
+        <source media="(prefers-color-scheme: dark)" srcset="https://cdn.jsdelivr.net/gh/Starchaser1024/Starchaser1024@616b1877ecec94eee1ceb309f6f0529e5b66e51a/assets/stats-dark.svg">
+        <img width="100%" src="https://cdn.jsdelivr.net/gh/Starchaser1024/Starchaser1024@616b1877ecec94eee1ceb309f6f0529e5b66e51a/assets/stats-light.svg" alt="GitHub stats">
       </picture>
     </td>
     <td width="42%" align="center">
       <picture>
-        <source media="(prefers-color-scheme: dark)" srcset="https://cdn.jsdelivr.net/gh/Starchaser1024/Starchaser1024@86feebd49742821daee6f53378cb59e049cc8dd8/assets/top-langs-dark.svg">
-        <img width="100%" src="https://cdn.jsdelivr.net/gh/Starchaser1024/Starchaser1024@86feebd49742821daee6f53378cb59e049cc8dd8/assets/top-langs-light.svg" alt="Most used languages">
+        <source media="(prefers-color-scheme: dark)" srcset="https://cdn.jsdelivr.net/gh/Starchaser1024/Starchaser1024@616b1877ecec94eee1ceb309f6f0529e5b66e51a/assets/top-langs-dark.svg">
+        <img width="100%" src="https://cdn.jsdelivr.net/gh/Starchaser1024/Starchaser1024@616b1877ecec94eee1ceb309f6f0529e5b66e51a/assets/top-langs-light.svg" alt="Most used languages">
       </picture>
     </td>
   </tr>
